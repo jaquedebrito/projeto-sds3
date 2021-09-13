@@ -24,12 +24,21 @@ export type SalePage = {
 }
 
 export type SaleSum = {
+<<<<<<< HEAD
     sellerName: string;
     sum: number;
 }
 
 export type SaleSuccess = {
     sellerName: string;
+=======
+    sellerName : string;
+    sum : number;
+}
+
+export type SaleSuccess = {
+    sellerName : string;
+>>>>>>> d083155cd1fa8488ad8927d16f9e223e60b277e7
     visited: number;
     deals: number;
 }
