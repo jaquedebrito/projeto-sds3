@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://loclhost:8080';
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL ?? 'http://loclhost:8080';
